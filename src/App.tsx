@@ -5,12 +5,13 @@ import QuizResult from './components/QuizResult';
 
 // Quiz data
 const quizOptions = [
-  { id: 'A', text: 'Resists current' },
-  { id: 'B', text: 'Stores electric charge' },
-  { id: 'C', text: 'Converts current' }
+  { id: 'A', text: 'AC flows in one direction, DC alternates' },
+  { id: 'B', text: 'AC is used in batteries, DC in power grids' },
+  { id: 'C', text: ' AC alternates direction, DC flows in one direction' },
+  { id: 'D', text: 'No difference' }
 ];
 
-const correctAnswer = 'B';
+const correctAnswer = 'C';
 
 // Quiz steps
 enum QuizStep {
@@ -45,7 +46,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-indigo-100 flex flex-col items-center justify-center px-4 py-12 relative">
       <header className="mb-8 text-center">
-        <h1 className="text-3xl font-bold text-[#0072CE]">IEEE WIE Competition</h1>
+        <h1 className="text-3xl font-bold text-[#0072CE]">Eclectic Engineering competition</h1>
         <p className="text-gray-600 mt-2">Quick Knowledge Quiz</p>
       </header>
 

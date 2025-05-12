@@ -22,7 +22,7 @@ const NameEntry: React.FC<NameEntryProps> = ({ onSubmit }) => {
 
   return (
     <div className="w-full max-w-md mx-auto p-6 bg-white rounded-lg shadow-lg transform transition-all duration-300 ease-in-out">
-      <h2 className="text-2xl font-bold text-center mb-6 text-[#0072CE]">Welcome to IEEE WIE Competition</h2>
+      <h2 className="text-2xl font-bold text-center mb-6 text-[#0072CE]">Welcome to Eclectic Engineering competition</h2>
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="space-y-2">
