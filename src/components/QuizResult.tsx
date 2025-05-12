@@ -72,14 +72,6 @@ const QuizResult: React.FC<QuizResultProps> = ({
           </div>
         )}
       </div>
-      
-      <button
-        onClick={onRestart}
-        className="w-full flex items-center justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-white bg-[#0072CE] hover:bg-[#005bb7] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0072CE] transition-colors duration-200"
-      >
-        <RefreshCw className="mr-2 h-4 w-4" />
-        Try Again
-      </button>
     </div>
   );
 };

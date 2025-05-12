@@ -5,12 +5,12 @@ import QuizResult from './components/QuizResult';
 
 // Quiz data
 const quizOptions = [
-  { id: 'A', text: 'Women in Education' },
-  { id: 'B', text: ' Women in Engineering' },
-  { id: 'C', text: 'Women in Environment' }
+  { id: 'A', text: 'Only women who are engineers' },
+  { id: 'B', text: 'Only lEEE members with PhDs' },
+  { id: 'C', text: 'Any IEEE member, regardless of gender' }
 ];
 
-const correctAnswer = 'B';
+const correctAnswer = 'C';
 
 // Quiz steps
 enum QuizStep {
