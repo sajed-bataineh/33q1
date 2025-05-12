@@ -5,12 +5,12 @@ import QuizResult from './components/QuizResult';
 
 // Quiz data
 const quizOptions = [
-  { id: 'A', text: 'Public speaking, leadership, and professional networking ' },
-  { id: 'B', text: 'Gardening, cooking, and event planning' },
-  { id: 'C', text: ' Financial management and investments' }
+  { id: 'A', text: 'Science, Technology, Environment, Math' },
+  { id: 'B', text: 'Science, Technology, Engineering, Math' },
+  { id: 'C', text: 'Science, Tools, Electronics, Math' }
 ];
 
-const correctAnswer = 'A';
+const correctAnswer = 'B';
 
 // Quiz steps
 enum QuizStep {
