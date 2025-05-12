@@ -5,10 +5,10 @@ import QuizResult from './components/QuizResult';
 
 // Quiz data
 const quizOptions = [
-  { id: 'A', text: 'Resistor' },
-  { id: 'B', text: 'Capacitor' },
-  { id: 'C', text: 'Transistor' },
-  { id: 'D', text: 'Motor' }
+  { id: 'A', text: 'Signal amplification' },
+  { id: 'B', text: 'Electricity distribution' },
+  { id: 'C', text: 'Connecting multiple devices on a single network' },
+  { id: 'D', text: 'Interconnecting different networks' }
 ];
 
 const correctAnswer = 'C';
