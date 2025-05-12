@@ -38,7 +38,7 @@ const QuizQuestion: React.FC<QuizQuestionProps> = ({
         <Timer duration={20} onTimeUp={handleTimeUp} />
       </div>
       
-      <h2 className="text-xl font-bold text-gray-800 mb-4">.In electronic circuits, what is the purpose of using a diode?</h2>
+      <h2 className="text-xl font-bold text-gray-800 mb-4">Which of the following is used as an electronic switch in circuits?</h2>
       
       <div className="space-y-3">
         {options.map((option) => (
