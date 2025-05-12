@@ -38,7 +38,7 @@ const QuizQuestion: React.FC<QuizQuestionProps> = ({
         <Timer duration={20} onTimeUp={handleTimeUp} />
       </div>
       
-      <h2 className="text-xl font-bold text-gray-800 mb-4"> In computer networks, what is the purpoe of a switch?</h2>
+      <h2 className="text-xl font-bold text-gray-800 mb-4">What is the difference between hardware and software?</h2>
       
       <div className="space-y-3">
         {options.map((option) => (
