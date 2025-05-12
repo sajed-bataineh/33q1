@@ -5,13 +5,13 @@ import QuizResult from './components/QuizResult';
 
 // Quiz data
 const quizOptions = [
-  { id: 'A', text: 'Voltmeter' },
-  { id: 'B', text: 'Ohmmeter' },
-  { id: 'C', text: 'Ammeter' },
-  { id: 'D', text: 'Wattmeter' }
+  { id: 'A', text: 'DC' },
+  { id: 'B', text: 'AC' },
+  { id: 'C', text: 'Mixed Current' },
+  { id: 'D', text: 'Pulsed Current' }
 ];
 
-const correctAnswer = 'C';
+const correctAnswer = 'B';
 
 // Quiz steps
 enum QuizStep {
