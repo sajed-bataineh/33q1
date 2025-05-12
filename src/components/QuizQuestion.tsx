@@ -38,7 +38,7 @@ const QuizQuestion: React.FC<QuizQuestionProps> = ({
         <Timer duration={20} onTimeUp={handleTimeUp} />
       </div>
       
-      <h2 className="text-xl font-bold text-gray-800 mb-4">Who can join the (WIE) group?</h2>
+      <h2 className="text-xl font-bold text-gray-800 mb-4">What skills are provided by lEEE Women in Engineering (WIE) </h2>
       
       <div className="space-y-3">
         {options.map((option) => (
