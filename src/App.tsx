@@ -5,10 +5,10 @@ import QuizResult from './components/QuizResult';
 
 // Quiz data
 const quizOptions = [
-  { id: 'A', text: 'DC' },
-  { id: 'B', text: 'AC' },
-  { id: 'C', text: 'Mixed Current' },
-  { id: 'D', text: 'Pulsed Current' }
+  { id: 'A', text: 'V^2 x R' },
+  { id: 'B', text: 'AI^2 x v' },
+  { id: 'C', text: ' I^2 x R' },
+  { id: 'D', text: 'None of the mentioned' }
 ];
 
 const correctAnswer = 'B';

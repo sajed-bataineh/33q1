@@ -38,7 +38,7 @@ const QuizQuestion: React.FC<QuizQuestionProps> = ({
         <Timer duration={20} onTimeUp={handleTimeUp} />
       </div>
       
-      <h2 className="text-xl font-bold text-gray-800 mb-4"> Which current type is used in homes?</h2>
+      <h2 className="text-xl font-bold text-gray-800 mb-4">What is the law of power?</h2>
       
       <div className="space-y-3">
         {options.map((option) => (
