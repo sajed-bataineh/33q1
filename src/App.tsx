@@ -5,9 +5,9 @@ import QuizResult from './components/QuizResult';
 
 // Quiz data
 const quizOptions = [
-  { id: 'A', text: 'International Engineering for Environmental Excellence' },
-  { id: 'B', text: 'Institute of Electrical and Electronics Engineers' },
-  { id: 'C', text: 'International Energy and Electronics Experts' }
+  { id: 'A', text: 'Women in Education' },
+  { id: 'B', text: ' Women in Engineering' },
+  { id: 'C', text: 'Women in Environment' }
 ];
 
 const correctAnswer = 'B';
