@@ -5,13 +5,13 @@ import QuizResult from './components/QuizResult';
 
 // Quiz data
 const quizOptions = [
-  { id: 'A', text: 'AC flows in one direction, DC alternates' },
-  { id: 'B', text: 'AC is used in batteries, DC in power grids' },
-  { id: 'C', text: ' AC alternates direction, DC flows in one direction' },
-  { id: 'D', text: 'No difference' }
+  { id: 'A', text: ' Resists current' },
+  { id: 'B', text: 'Stores electric charge' },
+  { id: 'C', text: 'Converts current' },
+  { id: 'D', text: 'Amplifies signals' }
 ];
 
-const correctAnswer = 'C';
+const correctAnswer = 'B';
 
 // Quiz steps
 enum QuizStep {
