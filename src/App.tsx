@@ -5,10 +5,10 @@ import QuizResult from './components/QuizResult';
 
 // Quiz data
 const quizOptions = [
-  { id: 'A', text: 'DC' },
-  { id: 'B', text: 'AC' },
-  { id: 'C', text: 'Mixed Current' },
-  { id: 'D', text: 'Pulsed Current' }
+  { id: 'A', text: ' Signal amplification' },
+  { id: 'B', text: 'Allowing current to flow in one direction' },
+  { id: 'C', text: 'Energy storage' },
+  { id: 'D', text: 'Converting current to voltage' }
 ];
 
 const correctAnswer = 'B';
